@@ -1,0 +1,27 @@
+{
+  "name": "weather-cli-nodejs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "bin": {
+    "weather": "bin/weather.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "description": "a command line tool that displays weather",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparshrestha/weather-cli-nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "sparshrestha",
+  "bugs": {
+    "url": "https://github.com/sparshrestha/weather-cli-nodejs/issues"
+  },
+  "homepage": "https://github.com/sparshrestha/weather-cli-nodejs#readme"
+}
