@@ -23,8 +23,11 @@ module.exports = () => {
     case 'version':
     require('./cmds/version')(args);
     break;
+    case 'forecast':
+    require('./cmds/forecast')(args)
+    break;
     default:
-    console.error(`"${cmd}" is not a valid command! plz look help docs`);
+    console.error(`"${cmd}" is not a valid command! plz look help docs using -help`);
     break;
   }
 }
