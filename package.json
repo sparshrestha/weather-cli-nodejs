@@ -12,15 +12,20 @@
     "minimist": "^1.2.0",
     "ora": "^2.1.0"
   },
-  "description": "a command line tool that displays weather",
+  "engines": {
+    "node": ">=8"
+  },
+  "description": "A CLI that displays weather forecast",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sparshrestha/weather-cli-nodejs.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs","cli",
+    "weather", "app"
   ],
+  "preferGlobal": true,
   "author": "sparshrestha",
   "bugs": {
     "url": "https://github.com/sparshrestha/weather-cli-nodejs/issues"

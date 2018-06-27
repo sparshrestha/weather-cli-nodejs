@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const minimist = require('minimist');
+const error = require('./utils/error')
 
 module.exports = () => {
   const args = minimist(process.argv.slice(2));
@@ -27,7 +28,7 @@ module.exports = () => {
     require('./cmds/forecast')(args)
     break;
     default:
-    console.error(`"${cmd}" is not a valid command! plz look help docs using -help`);
+    error(`"${cmd}" is not a valid command! plz look help docs using -help`, true);
     break;
   }
 }
